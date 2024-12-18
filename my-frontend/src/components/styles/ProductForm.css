@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #e9ddff;
+}
+
+h1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+input,
+textarea,
+select {
+  border-radius: 8px;
+  border: 1px solid #381e72;
+  padding: 12px 20px;
+}
+
+.btn_style {
+  display: flex;
+  justify-content: center;
+}
+
+.my-button {
+  background-color: #381e72;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 35px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.container_form {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 44px;
+  border-radius: 24px;
+  background-color: white;
+}
+
+.container_label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.container_label textarea {
+  min-width: 298px;
+
+  min-height: 80px;
+  padding: 16px;
+}
+
+.obj_label input {
+  width: 298px;
+}
+
+.container_checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  padding-bottom: 22px;
+}
+
+.obj_checkbox {
+  display: flex;
+  gap: 40px;
+}
+
+.disable_label {
+  color: #b3b3b3;
+}
+
+.disable_label input {
+  border: 1px solid #b2b2b2;
+  width: 298px;
+}
+
+.container_price {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  gap: 44px;
+}
+
+.obj_radio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container_dim {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.obj_dim {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.obj_dim input {
+  flex: 1; /* Chaque input prend une largeur égale */
+  min-width: 0; /* Permet d'éviter tout débordement */
+  width: 100%;
+}
+
+.obj_select {
+  width: 340px;
+}
+
+.container_link {
+  padding: 24px;
+  border-radius: 24px;
+  background-color: white;
+}
+
+.container_product {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title_link {
+  padding-bottom: 44px;
+}
